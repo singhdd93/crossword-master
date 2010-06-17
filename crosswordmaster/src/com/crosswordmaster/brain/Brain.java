@@ -4,9 +4,9 @@ import java.util.Random;
 
 public class Brain {
 
-    public static char[][] getCrossword() {
+    public static char[][] getCrossword(int x, int y) {
 
-        char[][] cw = new char[5][5];
+        char[][] cw = new char[x][y];
 
         Random rnd = new Random();
         
@@ -23,7 +23,7 @@ public class Brain {
 
         System.out.println("Brain is alive.");
         
-        char[][] cw = getCrossword();
+        char[][] cw = getCrossword(15,15);
         
         for (int i = 0; i < cw.length; i++) {
             for (int j = 0; j < cw[i].length; j++) {
