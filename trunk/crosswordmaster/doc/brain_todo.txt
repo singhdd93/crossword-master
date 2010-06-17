@@ -1,0 +1,10 @@
+TODO:
+
+W: premysliet api, obj. model
+T: 25.06.2010
+
+W: vytvorit obj. model, api
+T: 27.06.2010 
+
+W: premysliet kde bude zdroj dat pre krizovky
+T: 27.06.2010
