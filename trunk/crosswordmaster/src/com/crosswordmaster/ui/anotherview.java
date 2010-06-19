@@ -10,11 +10,6 @@ import android.util.TypedValue;
 import com.crosswordmaster.R;
 
 public class anotherview extends Activity {
-
-	/** 
-	 * Instancia WebView, s ktorou budeme pracovat
-	 */
-	WebView cWebView;
 	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -24,15 +19,6 @@ public class anotherview extends Activity {
 		int x = 3;
 		int y = 3;	
 		int k,j;
-		
-		/*//pomocna premenna pre ulozenie HTML kodu
-		String html = "<html><body><h1>Anotherview</h1></body></html>";
-		
-		
-		cWebView = (WebView) findViewById(R.id.another);
-        cWebView.getSettings().setJavaScriptEnabled(true);
-        //cWebView.loadUrl("http://www.google.com");
-        cWebView.loadData(html, "text/html", "utf-8");*/
 		
 		LinearLayout ll = (LinearLayout) findViewById(R.id.another);
 		
