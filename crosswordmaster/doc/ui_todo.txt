@@ -1,0 +1,8 @@
+TODO:
+
+W: vymysliet komponentu alebo sposob ako zobrazovat krizovku,
+najlepsie ak vstupnymi parametrami bude pole textov krizovky ako viacrozmerne pole
+viac rozmerne v zmysle dva rozmery pre XY a pripadne nejaky atribut ci je to hlavickove pole
+aka je legenda pre riadok stlpec a podobne
+nieco v zmysle pole[x][y].isLegend typu boolean a pole[x][y].legend typu string
+T: co najskor :D

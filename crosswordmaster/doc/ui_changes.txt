@@ -1,0 +1,7 @@
+19.6.2010 - 18:27
+layout main.xml
+pridane tlacidla + nahodene onClickListeners na ne pre spustanie Activity
+
+pridany layout another_view.xml
+
+upraveny crosswordmaster.java kedze je to main class ktory vsetko riadi a funguje hned po launchi
