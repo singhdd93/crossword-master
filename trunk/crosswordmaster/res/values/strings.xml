@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, crosswordmaster!</string>
-    <string name="app_name">Crossword master</string>
+    
+    <string name="app_name">Crossword master EN</string>
+<string name="title_crossword_generated">Generated crossword</string>
 </resources>
