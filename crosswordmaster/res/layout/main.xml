@@ -2,24 +2,21 @@
 <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
 	android:id="@+id/main"
 	android:layout_width="fill_parent"
-	android:layout_height="fill_parent" 
+	android:layout_height="fill_parent"
+	android:orientation="vertical" 
 >
 	<Button android:id="@+id/buttonWebView"
 			android:text="@string/button_web_view"
 			android:textSize="15sp"
-			android:layout_width="wrap_content"
+			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
-			android:paddingTop="5sp"
-			android:paddingBottom="5sp"
 	/>
 	
 	<Button android:id="@+id/buttonAnotherView"
 			android:text="@string/button_another_view"
 			android:textSize="15sp"
-			android:layout_width="wrap_content"
+			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
-			android:paddingTop="5sp"
-			android:paddingBottom="5sp"
 	/>
 	
 	
