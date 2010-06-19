@@ -8,8 +8,6 @@ import com.crosswordmaster.ui.crosswordview;
 public class crosswordmaster extends Activity {
     /** Called when the activity is first created. */
 	
-	crosswordview cview;
-	
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
