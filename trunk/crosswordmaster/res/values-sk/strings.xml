@@ -3,4 +3,6 @@
     
     <string name="app_name">Crossword master SK</string>
 <string name="title_crossword_generated">Generovaná krížovka</string>
+<string name="button_web_view">Zobraz web view</string>
+<string name="button_another_view">Zobraz iný view</string>
 </resources>
