@@ -11,8 +11,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-    </application>
+        
+    
+		<activity android:name=".ui.crosswordview" android:label="@string/title_crossword_generated">
+			<intent-filter>
+				<action android:name="crosswordmaster.ui.crosswordview" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+		
+		
+		<activity android:name=".ui.anotherview" android:label="@string/title_crossword_generated">
+			<intent-filter>
+				<action android:name="crosswordmaster.ui.anotherview" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
+</application>
 
 
 </manifest> 
