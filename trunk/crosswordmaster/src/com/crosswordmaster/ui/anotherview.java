@@ -2,10 +2,6 @@ package com.crosswordmaster.ui;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.webkit.WebView;
-import android.widget.EditText;
-import android.widget.LinearLayout;
-import android.util.TypedValue;
 
 import com.crosswordmaster.R;
 
@@ -20,17 +16,17 @@ public class anotherview extends Activity {
 		int y = 3;	
 		int k,j;
 		
-		LinearLayout ll = (LinearLayout) findViewById(R.id.another);
+		
+		/*LinearLayout ll = (LinearLayout) findViewById(R.id.another);
 		
 		//EditText[][] krizovka = new EditText[x][y];
 		EditText skuska = new EditText(this);
 		skuska.setText("s");
-		skuska.setWidth(30);
-		skuska.setHeight(30);
-		skuska.setTextSize(TypedValue.COMPLEX_UNIT_SP, 10);
+		skuska.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14);
 		skuska.setVisibility(1);
+		skuska.layout(10, 10, 50, 50);
 		skuska.setId(10);
-		ll.addView(skuska);
+		ll.addView(skuska);*/
 		
 		//prejdeme riadky
 		/*for (k = 1; k <= x; k++) {
