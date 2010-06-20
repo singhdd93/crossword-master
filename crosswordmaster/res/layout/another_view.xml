@@ -1,6 +1,165 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/another"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-/>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/another_view"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+<HorizontalScrollView
+		android:id="@+id/horizontalView"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:scrollbars="horizontal">
+	
+	<ScrollView
+		android:id="@+id/verticalView"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent">
+		
+		<RelativeLayout
+			android:id="@+id/riadok1"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent">
+		
+				<EditText
+					android:id="@+id/text1"
+					android:layout_width="100dip"
+					android:layout_height="150dip"
+					android:text="S"
+					android:layout_margin="0px"
+				/>
+				
+				<EditText
+					android:id="@+id/text2"
+					android:layout_width="100dip"
+					android:layout_height="150dip"
+					android:text="S"
+					android:layout_toRightOf="@id/text1"
+					android:layout_margin="0px"
+				/>
+				
+				<EditText
+					android:id="@+id/text3"
+					android:layout_width="100dip"
+					android:layout_height="150dip"
+					android:text="S"
+					android:layout_toRightOf="@id/text2"
+					android:layout_margin="0px"
+				/>
+				
+				<EditText
+					android:id="@+id/text4"
+					android:layout_width="100dip"
+					android:layout_height="150dip"
+					android:text="S"
+					android:layout_toRightOf="@id/text3"
+					android:layout_margin="0px"
+				/>
+				
+				<EditText
+					android:id="@+id/text5"
+					android:layout_width="100dip"
+					android:layout_height="150dip"
+					android:text="S"
+					android:layout_below="@id/text1"
+					android:layout_margin="0px"
+				/>
+				
+				<EditText
+					android:id="@+id/text6"
+					android:layout_width="100dip"
+					android:layout_height="150dip"
+					android:text="S"
+					android:layout_below="@id/text2"
+					android:layout_toRightOf="@id/text5"
+				/>
+				
+				<EditText
+					android:id="@+id/text7"
+					android:layout_width="100dip"
+					android:layout_height="150dip"
+					android:text="S"
+					android:layout_below="@id/text3"
+					android:layout_toRightOf="@id/text6"
+				/>
+				
+				<EditText
+					android:id="@+id/text8"
+					android:layout_width="100dip"
+					android:layout_height="150dip"
+					android:layout_below="@id/text4"
+					android:layout_toRightOf="@id/text7"
+				/>
+				
+				<EditText
+					android:id="@+id/text9"
+					android:layout_width="100dip"
+					android:layout_height="150dip"
+					android:text="S"
+					android:layout_below="@id/text5"
+				/>
+				
+				<EditText
+					android:id="@+id/text10"
+					android:layout_width="100dip"
+					android:layout_height="150dip"
+					android:layout_below="@id/text6"
+					android:layout_toRightOf="@id/text9"
+				/>
+				
+				<EditText
+					android:id="@+id/text11"
+					android:layout_width="100dip"
+					android:layout_height="150dip"
+					android:layout_below="@id/text7"
+					android:layout_toRightOf="@id/text10"
+				/>
+				
+				<EditText
+					android:id="@+id/text12"
+					android:layout_width="100dip"
+					android:layout_height="150dip"
+					android:layout_below="@id/text8"
+					android:layout_toRightOf="@id/text11"
+				/>
+				
+				<EditText
+					android:id="@+id/text13"
+					android:layout_width="100dip"
+					android:layout_height="150dip"
+					android:text="S"
+					android:layout_below="@id/text9"
+				/>
+				
+				<EditText
+					android:id="@+id/text14"
+					android:layout_width="100dip"
+					android:layout_height="150dip"
+					android:text="S"
+					android:layout_below="@id/text10"
+					android:layout_toRightOf="@id/text13"
+				/>
+				
+				<EditText
+					android:id="@+id/text15"
+					android:layout_width="100dip"
+					android:layout_height="150dip"
+					android:text="S"
+					android:layout_below="@id/text11"
+					android:layout_toRightOf="@id/text14"
+				/>
+				
+				<EditText
+					android:id="@+id/text16"
+					android:layout_width="100dip"
+					android:layout_height="150dip"
+					android:text="S"
+					android:layout_below="@id/text12"
+					android:layout_toRightOf="@id/text15"
+				/>
+	
+			</RelativeLayout>
+		</ScrollView>
+	</HorizontalScrollView>
+</LinearLayout>
+	
+	
