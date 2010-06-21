@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/com.crosswordmaster"
+
 	android:id="@+id/another_view"
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent">
@@ -20,12 +22,11 @@
 			android:layout_width="wrap_content"
 			android:layout_height="fill_parent">
 		
-				<EditText
+				<com.crosswordmaster.ui.CrosswordEdit
 					android:id="@+id/text1"
+					app:text="S"
 					android:layout_width="100dip"
 					android:layout_height="150dip"
-					android:text="S"
-					android:layout_margin="0px"
 				/>
 				
 				<EditText
