@@ -4,12 +4,13 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.graphics.Rect;
 import android.util.AttributeSet;
-import android.widget.EditText;
+import android.view.View;
 
 import com.crosswordmaster.R;
 
-public class CrosswordEdit extends EditText {
+public class CrosswordEdit extends View {
 	
 	private Paint mCrosswordEditPaint;
 	private String mCrosswordChar;
@@ -72,7 +73,11 @@ public class CrosswordEdit extends EditText {
 	
 	
 	public void setText(String text) {
-		mCrosswordChar = text;
+		if (text.length() > 1) {
+			mCrosswordChar = Character.toString(text.charAt(0));
+		} else {
+			mCrosswordChar = text;
+		}
 		requestLayout();
 		invalidate();
 	}
@@ -146,6 +151,18 @@ public class CrosswordEdit extends EditText {
         }
         return result;
     }
+    
+    
+    @Override
+    protected void onFocusChanged(boolean focused, int direction, Rect  previouslyFocusedRect) {
+    	if (focused) {
+    		mCrosswordEditPaint.setColor(0xFF00FF00);
+    	} else {
+    		mCrosswordEditPaint.setColor(0xFFFF0000);
+    	}
+    	invalidate();
+    }
+
     
     
     @Override
