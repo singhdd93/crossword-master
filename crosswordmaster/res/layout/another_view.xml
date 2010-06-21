@@ -27,6 +27,7 @@
 					app:text="S"
 					android:layout_width="100dip"
 					android:layout_height="150dip"
+					android:singleLine="true"
 				/>
 				
 				<EditText
