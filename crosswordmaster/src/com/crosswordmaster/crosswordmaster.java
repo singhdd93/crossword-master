@@ -22,6 +22,7 @@ public class crosswordmaster extends Activity {
         
         final Button webButton = (Button) findViewById(R.id.buttonWebView);
         final Button anoButton = (Button) findViewById(R.id.buttonAnotherView);
+        final Button cusButton = (Button) findViewById(R.id.buttonCrosswordviewComponent);
         
         /* priradim on click listenery */
         webButton.setOnClickListener(new View.OnClickListener() {
@@ -33,6 +34,12 @@ public class crosswordmaster extends Activity {
         anoButton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
 				startActivity(new Intent("crosswordmaster.ui.anotherview"));
+			}
+		});
+        
+        cusButton.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				startActivity(new Intent("crosswordmaster.ui.customview"));
 			}
 		});
                 

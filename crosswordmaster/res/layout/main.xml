@@ -6,17 +6,24 @@
 	android:orientation="vertical" 
 >
 	<Button android:id="@+id/buttonWebView"
-			android:text="@string/button_web_view"
+			android:text="Web view komponenta"
 			android:textSize="15sp"
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
 	/>
 	
 	<Button android:id="@+id/buttonAnotherView"
-			android:text="@string/button_another_view"
+			android:text="CrosswordEdit komponenta"
 			android:textSize="15sp"
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
+	/>
+	
+	<Button android:id="@+id/buttonCrosswordviewComponent"
+		android:text="Crosswordview komponenta"
+		android:textSize="15sp"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
 	/>
 	
 	
