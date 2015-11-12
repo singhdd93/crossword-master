@@ -1,0 +1,1 @@
+Crossword master is excellent and FREE game for Android powered devices. It offers you a great user interface and many hours of fun. It also offers crosswords in more languages. This depends on dictionary database! This game is just awesome.
